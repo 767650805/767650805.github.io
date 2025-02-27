@@ -1,0 +1,486 @@
+{
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "新加坡｜原生 § 3+",
+      "server": "baiyunsg2.usvpn123.com",
+      "server_port": 8080,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "BBkphBvo3eSu160ozE0VemVwySC7Tvixdheti05N_Wk",
+          "short_id": "3c40ee09682c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "新加坡｜GPT § 4",
+      "server": "baiyunsp1.usvpn123.com",
+      "server_port": 8445,
+      "password": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "transport": {
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "香港｜GTP § 5",
+      "server": "baiyunhk2.usvpn123.com",
+      "server_port": 8082,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HmD6VodjljJJ4TmDwGZBAl-kdIwSnF-z4BcqkFBuEkU",
+          "short_id": "3c40ee09682c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "香港 § 6",
+      "server": "baiyunhk2.usvpn123.com",
+      "server_port": 18443,
+      "password": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "tls": {
+        "enabled": true,
+        "server_name": "baiyunhk2.usvpn123.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "韩国｜原生 § 7",
+      "server": "baiyunkr3.usvpn123.com",
+      "server_port": 8080,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "FmSUpp3HaqjHxpCQncZbJ9VjxMwHfEkwT3J99kLR-Ao",
+          "short_id": "3c40ee09682c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "美国｜原生｜GPT § 8",
+      "server": "baiyunus2.usvpn123.com",
+      "server_port": 8080,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "EDc0mJttpCeV0qUGUfPQqlxrqdo5mp-6YXWZiXlRBlo",
+          "short_id": "3c40ee09682c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "英国｜原生｜GPT § 9",
+      "server": "baiyunuk1.usvpn123.com",
+      "server_port": 8080,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "M8qrRr9EvFHCkBBs8rOtcHw4zM1TAY6n_0kRRfbkeQ4",
+          "short_id": "3c40ee09682c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "德国｜原生 § 10",
+      "server": "baiyunge1.usvpn123.com",
+      "server_port": 8080,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "xeCH6nBdVpruRDs0S_4MoDD7m3PON3bS7-olgQqsM1M",
+          "short_id": "3c40ee09682c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "法国｜原生 § 11",
+      "server": "baiyunfr1.usvpn123.com",
+      "server_port": 8080,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Y2eso3Ro3-j7Kyw9iT_6bioNIQqV0F5ohG_U4sMgZS4",
+          "short_id": "3c40ee09682c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "瑞典｜原生 § 12",
+      "server": "baiyunse1.usvpn123.com",
+      "server_port": 8080,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "eu00P_glCWbwcsHf2ZEEJaarMe6hyu-Wc7MVejvknGQ",
+          "short_id": "3c40ee09682c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "印度｜原生 § 13",
+      "server": "baiyunin1.usvpn123.com",
+      "server_port": 8080,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "-vgUjHJ-bDCRlHmFus7bC-5TR-ac7Q0AGt3kTD_Dg0M",
+          "short_id": "3c40ee09682c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "爱尔兰｜原生 § 14",
+      "server": "baiyunirl1.usvpn123.com",
+      "server_port": 8080,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "16Ef1LZkLDCuoXCWwBDHaAXxkWKzbUHrINxeI89NPXI",
+          "short_id": "055c104e7e76"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "新加坡｜原生 § 3",
+      "server": "baiyunsg2.usvpn123.com",
+      "server_port": 8080,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "BBkphBvo3eSu160ozE0VemVwySC7Tvixdheti05N_Wk",
+          "short_id": "3c40ee09682c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "trojan",
+      "tag": "新加坡｜GPT § 4",
+      "server": "baiyunsp1.usvpn123.com",
+      "server_port": 8445,
+      "password": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "transport": {
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "香港｜GTP § 5",
+      "server": "baiyunhk2.usvpn123.com",
+      "server_port": 8082,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HmD6VodjljJJ4TmDwGZBAl-kdIwSnF-z4BcqkFBuEkU",
+          "short_id": "3c40ee09682c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "香港 § 6",
+      "server": "baiyunhk2.usvpn123.com",
+      "server_port": 18443,
+      "password": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "tls": {
+        "enabled": true,
+        "server_name": "baiyunhk2.usvpn123.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "韩国｜原生 § 7",
+      "server": "baiyunkr3.usvpn123.com",
+      "server_port": 8080,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "FmSUpp3HaqjHxpCQncZbJ9VjxMwHfEkwT3J99kLR-Ao",
+          "short_id": "3c40ee09682c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "美国｜原生｜GPT § 8",
+      "server": "baiyunus2.usvpn123.com",
+      "server_port": 8080,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "EDc0mJttpCeV0qUGUfPQqlxrqdo5mp-6YXWZiXlRBlo",
+          "short_id": "3c40ee09682c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "英国｜原生｜GPT § 9",
+      "server": "baiyunuk1.usvpn123.com",
+      "server_port": 8080,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "M8qrRr9EvFHCkBBs8rOtcHw4zM1TAY6n_0kRRfbkeQ4",
+          "short_id": "3c40ee09682c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "德国｜原生 § 10",
+      "server": "baiyunge1.usvpn123.com",
+      "server_port": 8080,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "xeCH6nBdVpruRDs0S_4MoDD7m3PON3bS7-olgQqsM1M",
+          "short_id": "3c40ee09682c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "法国｜原生 § 11",
+      "server": "baiyunfr1.usvpn123.com",
+      "server_port": 8080,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Y2eso3Ro3-j7Kyw9iT_6bioNIQqV0F5ohG_U4sMgZS4",
+          "short_id": "3c40ee09682c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "瑞典｜原生 § 12",
+      "server": "baiyunse1.usvpn123.com",
+      "server_port": 8080,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "eu00P_glCWbwcsHf2ZEEJaarMe6hyu-Wc7MVejvknGQ",
+          "short_id": "3c40ee09682c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "印度｜原生 § 13",
+      "server": "baiyunin1.usvpn123.com",
+      "server_port": 8080,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "-vgUjHJ-bDCRlHmFus7bC-5TR-ac7Q0AGt3kTD_Dg0M",
+          "short_id": "3c40ee09682c"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "爱尔兰｜原生 § 14",
+      "server": "baiyunirl1.usvpn123.com",
+      "server_port": 8080,
+      "uuid": "a6ea0013-bb36-426b-9adc-2ea5b75b3f1a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.python.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "16Ef1LZkLDCuoXCWwBDHaAXxkWKzbUHrINxeI89NPXI",
+          "short_id": "055c104e7e76"
+        }
+      },
+      "packet_encoding": "xudp"
+    }
+  ]
+}
